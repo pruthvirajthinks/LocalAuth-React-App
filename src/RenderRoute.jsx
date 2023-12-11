@@ -3,9 +3,9 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import SignUp from "./SignUp";
 import { AuthData } from "./Auth/LocalAuth";
-import Profile from "./AuthReq/profile";
-import Members from "./AuthReq/members";
-import Public from "./public";
+import Profile from "./AuthReq/Profile";
+import Members from "./AuthReq/Members";
+import Public from "./Public";
 import Redirect from "./Redirect";
 
 const RenderRoute = () => {

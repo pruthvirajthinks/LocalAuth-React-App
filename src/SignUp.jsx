@@ -9,7 +9,7 @@ const SignUp = () => {
 
   return (
     <div className="h-screen items-center justify-center flex">
-      <form className="flex-col flex" onSubmit={()=> SignUp(input)} >
+      <form className="flex-col flex" onSubmit={() => SignUp(input)}>
         <label
           className="text-xl font-[Geist] font-medium text-gray-800"
           htmlFor="username"
